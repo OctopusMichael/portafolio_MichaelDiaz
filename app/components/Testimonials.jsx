@@ -10,7 +10,7 @@ const Testimonials = () => {
             src="/assets/Vector 8.webp"
             alt="blur"
           />
-          <h1 className="text-[38px] md:text-[48px] font-bold ">Cursos</h1>
+          <h1 className="text-[38px]  md:text-[48px] font-bold text-center md:text-start">Cursos</h1>
           <div className=" grid grid-cols-1 md:grid-cols-2    gap-[50px]  ">
              {data.reverse().map(e => (
               <div key={e.id} className="flex flex-col  gap-5 ">

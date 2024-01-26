@@ -12,7 +12,7 @@ const Projects = () => {
             alt="blur"
           />
           <h1 className="text-[48px] text-white text-center font-bold">
-            Proyectos 
+            Proyectos
           </h1>
           <Link
             href="/projects"
@@ -32,7 +32,7 @@ const Projects = () => {
               >
                 <img className="" src={e.img} alt={e.name} />
                 <div className="flex flex-col  justify-center items-center gap-2 px-5 md:p-0  ">
-                  <h1 className="text-[30px] font-bold text-white">
+                  <h1 className="text-[20px] md:text-[30px] font-bold text-white text-center  hover:text-blueAquaHover">
                     {e.name}{" "}
                   </h1>
                   <div className=" flex gap-5  justify-center items-center">
@@ -40,13 +40,19 @@ const Projects = () => {
                       href={`${e.site}`}
                       target="_blank"
                       font-bold
-                      className=" flex gap-5 e w-[100px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold  "
+                      className=" flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold  "
                     >
                       {" "}
                       Site <ArrowUpRightFromSquare />
                     </a>
-                    <a className="flex gap-5 e w-[100px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl  font-bold ">
-                      Code <Github />
+                    <a
+                      href={`${e.code}`}
+                      target="_blank"
+                      font-bold
+                      className=" flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold  "
+                    >
+                      {" "}
+                      Code <ArrowUpRightFromSquare />
                     </a>
                   </div>
                 </div>

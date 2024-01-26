@@ -27,7 +27,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="hidden  container p-[80px] md:p-0 md:px-[80px] md:flex justify-center md:justify-between items-center   mb-[50px] z-40">
+    <nav className="hidden container p-[80px] md:p-0 md:px-[80px] md:flex justify-center md:justify-between items-center   mb-[50px] z-40">
       <div className="">
         <a className="relative" href="#">
           {" "}

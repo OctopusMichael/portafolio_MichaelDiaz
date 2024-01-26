@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container   text-white ">
         <div className="flex flex-col gap-2 md:mb-[0px] p-[50px] justify-center items-center">
           <h3 className="text-[20px] md:text-[28px] text-blueAqua">
-            Get in Touch With Us
+            Contáctame
           </h3>
           <h1 className="text-[24px] md:text-[48px] underline hover:text-blueAquaHover cursor-pointer">
             Michaeldiazcampo@gmail.com

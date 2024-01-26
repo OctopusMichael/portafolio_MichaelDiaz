@@ -8,7 +8,7 @@
   },
   {
     "id": 1,
-    "name": "Social media dashboard with theme switcher",
+    "name": "Social media dashboard",
     "img": "/assets/projects/social.png",
     "site": "https://octopusmichael.github.io/social-media-dashboard/",
     "code": "https://github.com/OctopusMichael/social-media-dashboard"
@@ -57,14 +57,14 @@
   },
   {
     "id": 8,
-    "name": "Interactive card details form",
+    "name": "Interactive card details ",
     "img": "/assets/projects/card-form.png",
     "site": "https://octopusmichael.github.io/interactive-card/",
     "code": "https://github.com/OctopusMichael/interactive-card"
   },
   {
     "id": 9,
-    "name": "Sunnyside agency landing page",
+    "name": "Sunnyside agency ",
     "img": "/assets/projects/creative-landingpage.png",
     "site": "https://octopusmichael.github.io/sunnyside-agency/",
     "code": "https://github.com/OctopusMichael/sunnyside-agency"
@@ -106,14 +106,14 @@
   },
   {
     "id": 15,
-    "name": "Huddle landing page with alternating feature blocks",
+    "name": "Huddle landing page ",
     "img": "/assets/projects/huddle.png",
     "site": "https://octopusmichael.github.io/huddle-landing/",
     "code": "https://github.com/OctopusMichael/huddle-landing"
   },
   {
     "id": 16,
-    "name": "Intro section with dropdown navigation",
+    "name": "Intro section with navigation",
     "img": "/assets/projects/make-remote-work.png",
     "site": "https://octopusmichael.github.io/Intro-section-with-dropdown/",
     "code": "https://github.com/OctopusMichael/Intro-section-with-dropdown"
@@ -129,7 +129,7 @@
 
   {
     "id": 18,
-    "name": "Ping single column coming soon page",
+    "name": "Ping single column ",
     "img": "/assets/projects/ping.png",
     "site": "https://octopusmichael.github.io/ping-coming-soon-page-master/",
     "code": "https://github.com/OctopusMichael/ping-coming-soon-page-master"
@@ -152,14 +152,14 @@
   },
   {
     "id": 21,
-    "name": "Project tracking intro component",
+    "name": "Project tracking intro",
     "img": "/assets/projects/singlepage.png",
     "site": "https://octopusmichael.github.io/project-tracking/",
     "code": "https://github.com/OctopusMichael/project-tracking"
   },
   {
     "id": 22,
-    "name": "Coding bootcamp testimonials slider",
+    "name": "Coding bootcamp testimonials ",
     "img": "/assets/projects/testimonial.png",
     "site": "https://octopusmichael.github.io/testimonials-slider/",
     "code": "https://github.com/OctopusMichael/testimonials-slider"
@@ -201,7 +201,7 @@
   },
   {
     "id": 28,
-    "name": "Newsletter sign-up form with success message",
+    "name": "Newsletter sign-up ",
     "img": "/assets/projects/newsletter.png",
     "site": "https://octopusmichael.github.io/newsletter-sign-up/",
     "code": "https://github.com/OctopusMichael/newsletter-sign-up"

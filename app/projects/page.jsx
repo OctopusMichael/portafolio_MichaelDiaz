@@ -1,6 +1,12 @@
-import { ArrowUpRightFromSquare, Github, MoveRight } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowUpRightFromSquare,
+  Github,
+  MoveRight,
+} from "lucide-react";
 import React from "react";
 import data from "../json/projects.json";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -12,6 +18,10 @@ const page = () => {
             src="/assets/Vector 8.webp"
             alt="blur"
           />
+          <Link href="/" className=" md:hidden flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold z-[100] ">
+            {" "}
+            <ArrowLeft /> Atras{" "}
+          </Link>
           <h1 className="text-[48px] text-white text-center font-bold">
             Proyectos
           </h1>
@@ -24,19 +34,21 @@ const page = () => {
             >
               <img className="" src={e.img} alt={e.name} />
               <div className="flex flex-col  justify-center items-center gap-2 px-5 md:p-0  ">
-                <h1 className="text-[30px] font-bold text-white">{e.name} </h1>
+                <h1 className=" text-[20px] md:text-[30px] text-center font-bold text-white hover:text-blueAquaHover">
+                  {e.name}{" "}
+                </h1>
                 <div className=" flex gap-5  justify-center items-center">
                   <a
                     href={`${e.site}`}
                     target="_blank"
                     font-bold
-                    className=" flex gap-5 e w-[100px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold  "
+                    className=" flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold  "
                   >
                     {" "}
                     Site <ArrowUpRightFromSquare />
                   </a>
-                  <a className="flex gap-5 e w-[100px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl  font-bold ">
-                    Code <Github />
+                  <a className="flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl  font-bold ">
+                    Code <ArrowUpRightFromSquare />
                   </a>
                 </div>
               </div>
