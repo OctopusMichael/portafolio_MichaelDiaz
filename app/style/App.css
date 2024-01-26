@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply md:max-w-[1440px] md:mx-auto;
+  }
+}
+
+body {
+  background-color: #1A1A1A;
+  scroll-behavior: smooth;
+  font-family: "Syne", sans-serif;
+  color: #5bbfd6ad;
+  
+  
+}
+
+.luz-curso {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255); /* Color blanco semitransparente */
+  mix-blend-mode: overlay; /* Mezcla el color con el fondo */
+  pointer-events: none; /* Evita que el elemento afecte la interacción del usuario */
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s; /* Agrega transiciones para suavizar cambios en el tamaño */
+  filter: blur(40px);
+}
