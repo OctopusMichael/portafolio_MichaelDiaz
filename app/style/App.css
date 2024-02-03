@@ -1,5 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600&display=swap");
 @tailwind base;
+::-webkit-scrollbar {
+  width: 12px;
+  height: 150px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #34b0b2;
+  border: 0px none #ffffff;
+  border-radius: 46px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5BBFD6;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #5BBFD6;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #000000;
+}
+::-webkit-scrollbar-track:active {
+  background: #000000;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -10,23 +44,48 @@
 }
 
 body {
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   scroll-behavior: smooth;
   font-family: "Syne", sans-serif;
   color: #5bbfd6ad;
-  
-  
+}
+img {
+  width: 100%;
+  height: auto;
 }
 
-.luz-curso {
-  position: fixed;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-color: rgb(255, 255, 255); /* Color blanco semitransparente */
-  mix-blend-mode: overlay; /* Mezcla el color con el fondo */
-  pointer-events: none; /* Evita que el elemento afecte la interacción del usuario */
-  transform: translate(-50%, -50%);
-  transition: width 0.2s, height 0.2s; /* Agrega transiciones para suavizar cambios en el tamaño */
-  filter: blur(40px);
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
 }
+
+img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+/* #card {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+  
+}
+ */

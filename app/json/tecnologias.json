@@ -42,7 +42,7 @@
   {
     "id": 8,
     "name": "Framer Motion",
-    "img": "/assets/icons/framer.svg"
+    "img": "/assets/icons/frame.svg"
   },
   {
     "id": 9,
@@ -58,5 +58,15 @@
     "id": 11,
     "name": "GitHub",
     "img": "/assets/icons/github.svg"
+  },
+  {
+    "id": 12,
+    "name": "Astro",
+    "img": "/assets/icons/astro.svg"
+  },
+  {
+    "id": 13,
+    "name": "Figma",
+    "img": "/assets/icons/figma.svg"
   }
 ]

@@ -6,7 +6,7 @@ const Navbar = () => {
   const menu = [
     {
       id: 0,
-      name: "Home",
+      name: "Inicio",
       route: "/",
     },
 
@@ -54,6 +54,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+      
     </nav>
   );
 };

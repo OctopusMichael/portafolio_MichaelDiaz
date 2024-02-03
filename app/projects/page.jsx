@@ -8,6 +8,8 @@ import React from "react";
 import data from "../json/projects.json";
 import Link from "next/link";
 
+const newData = data.reverse();
+
 const page = () => {
   return (
     <section className="mt-[100px] md:mt-[100px] ">
@@ -18,7 +20,10 @@ const page = () => {
             src="/assets/Vector 8.webp"
             alt="blur"
           />
-          <Link href="/" className=" md:hidden flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold z-[100] ">
+          <Link
+            href="/"
+            className=" md:hidden flex gap-5  w-[150px]   justify-center p-2 px-3  bg-blueAqua hover:bg-blueAquaHover text-white rounded-xl font-bold z-[100] "
+          >
             {" "}
             <ArrowLeft /> Atras{" "}
           </Link>
@@ -27,12 +32,15 @@ const page = () => {
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 cursor-pointer   place-items-center      md:gap-x-[100px] gap-y-[100px]">
-          {data.reverse().map((e) => (
+          {newData.map((e) => (
             <div
+              data-atropos-offset="0"
               className="flex flex-col px-[40px] md:px-[0px]  p-5 rounded-xl  gap-5"
               key={e.id}
             >
-              <img className="" src={e.img} alt={e.name} />
+              <picture className="px-4">
+                <img className="" src={e.img} alt={e.name} />
+              </picture>
               <div className="flex flex-col  justify-center items-center gap-2 px-5 md:p-0  ">
                 <h1 className=" text-[20px] md:text-[30px] text-center font-bold text-white hover:text-blueAquaHover">
                   {e.name}{" "}
