@@ -12,7 +12,9 @@ const About = () => {
           />
           <h1 className="text-[38px] text-center md:text-start md:text-[48px] font-bold">
             Michael Diaz <br />{" "}
-            <span className="text-[24px] md:text-[34px]">Front-end Developer</span>
+            <span className="text-[24px] md:text-[34px]">
+              Front-end Developer
+            </span>
           </h1>
 
           <p className="text-center md:text-start ">
@@ -42,7 +44,7 @@ const About = () => {
               <Linkedin className="text-slate-300 hover:text-blueAquaHover" />
             </a>
             <a
-              className=" p-3  rounded-xl bg-blueAqua hover:bg-blueAquaHover  flex gap-2 items-center"
+              className=" hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110 scale-90  opacity-90 p-3  rounded-xl bg-blueAqua hover:bg-blueAquaHover  flex gap-2 items-center"
               href="/assets/hdv/hdv.pdf"
               download="hdv.pdf"
             >
