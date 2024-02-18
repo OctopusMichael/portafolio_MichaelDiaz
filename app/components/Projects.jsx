@@ -38,10 +38,7 @@ const Projects = () => {
                   key={e.id}
                 >
                   <picture className="px-4">
-                    <img
-                      /* className="w-[400px] h-auto"  */ src={e.img}
-                      alt={e.name}
-                    />
+                    <img src={e.img} alt={e.name} />
                   </picture>
 
                   <div className="flex flex-col  justify-center items-center gap-2 px-5 md:p-0  ">

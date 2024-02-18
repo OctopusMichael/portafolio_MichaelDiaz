@@ -74,9 +74,9 @@ img {
   }
 }
 
-img {
+picture {
   view-timeline-name: --image;
-  view-timeline-axis: block;
+  view-timeline-axis: hidden;
 
   animation-timeline: --image;
   animation-name: show;
@@ -84,16 +84,3 @@ img {
   animation-range: entry 25% cover 30%;
   animation-fill-mode: both;
 }
-
-/* #card {
-  view-timeline-name: --image;
-  view-timeline-axis: block;
-
-  animation-timeline: --image;
-  animation-name: show;
-
-  animation-range: entry 25% cover 30%;
-  animation-fill-mode: both;
-  
-}
- */

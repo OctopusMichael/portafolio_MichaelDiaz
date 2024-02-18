@@ -10,16 +10,18 @@ const Testimonials = () => {
             src="/assets/Vector 8.webp"
             alt="blur"
           />
-          <h1 className="text-[38px]  md:text-[48px] font-bold text-center md:text-start">Cursos</h1>
+          <h1 className="text-[38px]  md:text-[48px] font-bold text-center md:text-start">
+            Cursos
+          </h1>
           <div className=" grid grid-cols-1 md:grid-cols-2    gap-[50px]  ">
-             {data.reverse().map(e => (
+            {data.reverse().map((e) => (
               <div key={e.id} className="flex flex-col  gap-5 ">
-                <img  className="md:w-[600px] md:h-[400px]" src={e.img} alt="" />
-                <h1 >{e.name}</h1>
+                <img className="md:w-[600px] md:h-[400px]" src={e.img} alt="" />
+                <h1>{e.name}</h1>
                 <h1> {e.institute} </h1>
                 <h1>{e.date}</h1>
-                </div>
-             ))}
+              </div>
+            ))}
           </div>
         </div>
       </div>
