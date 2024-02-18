@@ -7,7 +7,7 @@ import Tecnologias from "./components/Tecnologias";
 export default function Home() {
   return (
     <>
-      <main>
+      <main className="overflow-hidden">
         <About />
         <Tecnologias />
         <Projects />

@@ -31,41 +31,48 @@
   },
   {
     "id": 6,
-    "name": "Tailwind ",
-    "img": "/assets/icons/tailwind.svg"
+    "name": "Angular",
+    "img": "/assets/icons/angular.svg"
   },
   {
-    "id": 7,
-    "name": "Bootstrap",
-    "img": "/assets/icons/bootstrap.svg"
-  },
-  {
-    "id": 8,
-    "name": "Framer Motion",
-    "img": "/assets/icons/frame.svg"
-  },
-  {
-    "id": 9,
-    "name": "Vite",
-    "img": "/assets/icons/vite.svg"
-  },
-  {
-    "id": 10,
-    "name": "Git",
-    "img": "/assets/icons/git.svg"
-  },
-  {
-    "id": 11,
-    "name": "GitHub",
-    "img": "/assets/icons/github.svg"
-  },
-  {
-    "id": 12,
+    "id": 13,
     "name": "Astro",
     "img": "/assets/icons/astro.svg"
   },
   {
-    "id": 13,
+    "id": 7,
+    "name": "Tailwind ",
+    "img": "/assets/icons/tailwind.svg"
+  },
+  {
+    "id": 8,
+    "name": "Bootstrap",
+    "img": "/assets/icons/bootstrap.svg"
+  },
+  {
+    "id": 9,
+    "name": "Framer Motion",
+    "img": "/assets/icons/frame.svg"
+  },
+  {
+    "id": 10,
+    "name": "Vite",
+    "img": "/assets/icons/vite.svg"
+  },
+  {
+    "id": 11,
+    "name": "Git",
+    "img": "/assets/icons/git.svg"
+  },
+  {
+    "id": 12,
+    "name": "GitHub",
+    "img": "/assets/icons/github.svg"
+  },
+  
+
+  {
+    "id": 14,
     "name": "Figma",
     "img": "/assets/icons/figma.svg"
   }

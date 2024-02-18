@@ -25,7 +25,7 @@ const Projects = () => {
             href="/projects"
             className="hover:shadow-lg transition-all duration-200 ease-in-out hover:scale-110 scale-90  opacity-90 hover:opacity-100  font-bold h-[50px] rounded-xl bg-transpartent border border-solid border-blueAqua hover:bg-blueAquaHover text-white  w-[200px] flex justify-center items-center gap-2 p-5 z-10"
           >
-            Ver mas <MoveRight />
+            ver mas <MoveRight />
           </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 cursor-pointer place-items-center      md:gap-x-[100px] gap-y-[50px] md:gap-y-[100px]">

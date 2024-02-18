@@ -18,10 +18,27 @@ const Tecnologias = () => {
           <h1 className="text-[48px] text-white text-center font-bold">
             Tecnologías
           </h1>
-          <Atropos>
+          <div
+            data-atropos-offset="0"
+            className=" md:hidden grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-10 bg-slate-800   rounded-xl p-10 z-50 "
+          >
+            {data.map((element) => (
+              <div
+                className="flex justify-center cursor-pointer items-center  hover:scale-110 transition-all duration-100 "
+                key={element.id}
+              >
+                <img
+                  className="w-[120px]"
+                  src={element.img}
+                  alt={element.name}
+                />
+              </div>
+            ))}
+          </div>
+          <Atropos className="">
             <div
               data-atropos-offset="0"
-              className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-10 bg-slate-800   rounded-xl p-10 z-50"
+              className=" hidden md:grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-10 bg-slate-800   rounded-xl p-10 z-50 "
             >
               {data.map((element) => (
                 <div

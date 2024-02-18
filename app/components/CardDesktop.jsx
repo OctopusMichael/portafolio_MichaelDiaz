@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardDesktop = () => {
+const CardDesktop = ({e}) => {
   return (
     <Atropos>
       <div
