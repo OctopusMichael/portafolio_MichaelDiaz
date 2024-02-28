@@ -25,7 +25,7 @@ const About = () => {
           </p>
           <p className="text-center md:text-start ">
             Estudio de forma autodidacta todo lo relacionado con el desarrollo
-            Front-End. <br /> Me gustaria medir mis conocimientos y conseguir mi
+            Front-End. <br /> Me gustaría medir mis conocimientos y conseguir mi
             primer empleo como desarrollador Junior .
           </p>
           <div className="flex items-center gap-5 z-50 ">
